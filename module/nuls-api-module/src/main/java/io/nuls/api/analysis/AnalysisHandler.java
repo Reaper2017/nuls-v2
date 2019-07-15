@@ -243,9 +243,6 @@ public class AnalysisHandler {
         for (CoinTo to : coinData.getTo()) {
             CoinToInfo coinToInfo = new CoinToInfo();
             coinToInfo.setAddress(AddressTool.getStringAddressByBytes(to.getAddress()));
-            if(coinToInfo.getAddress() == null) {
-                coinToInfo.setAddress("GJbpb6GNSvkBNoNa3YH2skPLSEVvEYMfS99");
-            }
             coinToInfo.setAssetsId(to.getAssetsId());
             coinToInfo.setChainId(to.getAssetsChainId());
             coinToInfo.setLockTime(to.getLockTime());
