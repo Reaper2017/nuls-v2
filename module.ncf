@@ -29,9 +29,9 @@ dependent=protocol-update
 port=18001
 crossPort=18002
 #魔法参数
-packetMagic=25329
+packetMagic=2019070801
 #种子节点
-selfSeedIps=192.168.1.191:18001,192.168.1.134:18001
+selfSeedIps=39.98.226.51:18001,47.244.186.65:18001,172.21.149.246:18001,47.74.86.85:18001
 #最大入网连接数
 maxInCount=100
 #最大出网连接数
@@ -64,7 +64,7 @@ genesisBlockPath=genesis-block.json
 dependent=protocol-update,cross-chain
 
 [consensus]
-seedNodes=tNULSeBaMkrt4z9FYEkkR9D6choPVvQr94oYZp,tNULSeBaMoGr2RkLZPfJeS5dFzZeNj1oXmaYNe
+seedNodes=tNULSeBaMkrt4z9FYEkkR9D6choPVvQr94oYZp,tNULSeBaMoGr2RkLZPfJeS5dFzZeNj1oXmaYNe,tNULSeBaMmShSTVwbU4rHkZjpD98JgFgg6rmhF,tNULSeBaMpTj8qEQ8CFDxiP69hGFB27u9nmMUc
 password=nuls123456
 packingInterval=10
 agentAssetId=1
